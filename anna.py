@@ -6,4 +6,4 @@ for i in range(len(name)):
         a=i
 print("the math mark is", math[a])#print result
 print("the english mark is", english[a])
-#Rupendra
+#HAcker
