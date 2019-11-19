@@ -7,4 +7,8 @@ def max_num(num1,num2,num3):
         return(num3)
     else:
         print("the number given is error")
+<<<<<<< HEAD
 print(max_num(2,4,9))
+=======
+print(max_num(2,4,4))
+>>>>>>> b30ca4904763a289dc03764699e6678af57782a6
