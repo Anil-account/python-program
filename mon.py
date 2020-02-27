@@ -1,11 +1,11 @@
 #to find name from roll no
-l = {'roll no': [1,2,3,4], 'name': ['Anil', 'ram', 'shyam', 'hari', 'weeb']}
+l = {'roll no': [1,2,3,4,5], 'name': ['Anil', 'ram', 'shyam', 'hari', 'weeb']}
 r = l['roll no']
 n = l['name']
 # print{r[2],n[2]}
 temp = 0
 data = int(input('enter your roll no '))
-for i in range(len(r)):
+for i in range(len(l['roll no'])):
     if r[i] == data:
         temp = i
 print(n[temp])

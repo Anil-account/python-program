@@ -11,3 +11,8 @@
 #         print(element)
 
 
+A = [[1,2,3,4,5],[45,77,88,9,00]]
+for i in range(len(A)):
+    for j in range(len(A[1])):
+        print(A[i][j])
+

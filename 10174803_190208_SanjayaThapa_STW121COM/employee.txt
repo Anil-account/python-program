@@ -1,0 +1,5 @@
+anil,Anil,8989,litpur,20,90990,Department1
+anil,thapa,122,ktm,18,98000,Department1
+Bikky,Ganesh,111,UK,34,990990,anil
+anil,thapa,12,ktm,16,98888,school
+Rupa,sinja,232,ktm,34,089090,Anil

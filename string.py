@@ -21,3 +21,14 @@ v= '#'.join(s)
 print(v)
 r = v.replace('#',' ')
 print(r)
+
+
+
+
+A = "Hi! my name is Anil"
+d = A.split()
+print(d)
+g ="#".join(d)
+print(g)
+r = g.replace('#',' ')
+print(r)

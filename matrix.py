@@ -14,17 +14,6 @@
 # print((mtx(a,b)))
 
 
-# max = [
-#     [0, 0, 0],
-#     [0, 0, 0],
-#     [0, 0, 0]]
-#
-# for x in range(0, 3):
-#     for y in range(0, 3):
-#         m = str(input("enter the value in" + str(x) + ',' + str(y)))
-#         max[x][y] = m
-#
-# print(max)
 
 
 # to print 3*3 matrix
@@ -72,7 +61,7 @@
 # print(O(a))
 
 
-
-
-
-
+A = [[1,2,3],[5,6,6]]
+for i in range(len(A)):
+    for j in range(len(A[1])):
+        print(A[i][j])

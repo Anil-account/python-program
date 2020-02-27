@@ -1,9 +1,13 @@
-# l = [['1,2,3,4'], "anil", "goh"]
-# for i in l[2]:
-#     print(i)
-#
+seconds = int(input("Enter seconds"))
 
-l1 = [1, 2, 3, 4]
-l2 = ['a', 'b', 'c', 'd']
-l3 = l1 + l2
-print(l3)
+
+def convertSeconds(seconds):
+    h = seconds // (60 * 60)
+    m = (seconds - h * 60 * 60) // 60
+    s = seconds - (h * 60 * 60) - (m * 60)
+    return (h, m, s)
+
+time = convertSeconds(seconds)
+
+print(str(time[0]) + " H " + str(time[1]) + " M " + str(time[2]) + " S ")
+
